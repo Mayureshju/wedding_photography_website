@@ -1,0 +1,29 @@
+@media print {
+	    .bordertop th{
+				font-size:12px;
+		}
+		
+    .bordertop tbody tr td{
+		padding: 6px;
+line-height: 10px;
+		font-size:10px;
+	}
+	    .bordertop tbody tr td h3{margin:0px;}
+	 .border2 th{
+				font-size:14px;
+		}
+		
+	    .border2 tbody tr td{
+		padding: 6px;
+line-height: 10px;
+		font-size:12px;
+	}
+		.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size:25px;
+    color: inherit;
+}
+body, .bordertop, #print_invoice{margin:0px; padding:0px;}
+
+}

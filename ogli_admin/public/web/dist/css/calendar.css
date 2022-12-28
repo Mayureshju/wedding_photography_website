@@ -1,0 +1,58 @@
+table{
+    border: 15px solid #658e0a; !important;
+    border-collapse:collapse;
+    margin-top: 10px;
+   /*  margin-left: 250px; */
+}
+td{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #e2e0e0; 
+    font-size: 18px;
+    font-weight: bold;
+	cursor:pointer
+}
+th{
+	color:white;
+	text-align:center !important;
+    height: 50px;
+    padding-bottom: 8px;
+    background:#89AA27;
+    font-size: 20px;
+}
+.prev_sign a, .next_sign a{
+    color:white;
+    text-decoration: none;
+}
+tr.week_name{
+    font-size: 16px;
+    font-weight:400;
+    color:red;
+    width: 10px;
+    background-color: #FFF3D3;
+}
+.highlight{
+    background-color:#89AA27;
+    color:white;
+    height: 50px;
+    padding-top: 13px;
+    padding-bottom: 7px;
+}
+
+.previous {
+	display:none;
+}
+
+.hov:hover{
+	background-color:#FFF3D3;
+}
+/*-----CSS for Right Side Advertisement----*/
+#fugo{
+    position: absolute;
+    top: 80px;
+    left: 1085px;
+    margin-top:-30px;
+}
+
+
